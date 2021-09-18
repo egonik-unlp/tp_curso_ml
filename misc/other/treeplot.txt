@@ -1,6 +1,7 @@
 .
 ├── [4.0K]  misc
 │   ├── [4.0K]  other
+│   │   ├── [ 638]  spec_download_uniprot.txt
 │   │   └── [   0]  treeplot.txt
 │   └── [4.0K]  plots
 │       └── [7.9K]  plot_protsize.png
@@ -8,19 +9,23 @@
     ├── [4.0K]  envfiles
     │   ├── [3.1K]  bio_ml.yml
     │   └── [1.8K]  requirements.txt
-    ├── [4.0K]  pickle
-    │   ├── [4.0K]  json_files
-    │   │   ├── [1.5M]  fully_preprocessed.json
-    │   │   └── [ 200]  numeric_code.json
-    │   ├── [4.0K]  numpy_arrays
-    │   │   ├── [6.3M]  padded_mitochondrion_proteins.npy
-    │   │   ├── [6.3M]  padded_surface_proteins.npy
-    │   │   └── [ 13M]  preprocessed_data.npz
-    │   └── [4.0K]  raw_mobidb_data
-    │       ├── [1.4G]  human_proteome_data.json
-    │       └── [3.6G]  proteomes.json
-    ├── [ 31K]  preprocessing.ipynb
-    ├── [143K]  protein_classification.ipynb
-    └── [143K]  protein_classification_mejor_modelo.ipynb
+    ├── [4.0K]  notebooks
+    │   ├── [ 31K]  preprocessing.ipynb
+    │   ├── [1018K]  preprocessing_disorder.ipynb
+    │   ├── [1018K]  preprocessing_transmembrane.ipynb
+    │   ├── [143K]  protein_classification.ipynb
+    │   └── [143K]  protein_classification_mejor_modelo.ipynb
+    └── [4.0K]  pickle
+        ├── [4.0K]  datasets
+        │   ├── [755M]  extract.tab
+        │   ├── [125M]  uniprot.gz
+        │   └── [ 29M]  uniprot_small.json
+        ├── [4.0K]  json_files
+        │   ├── [1.5M]  fully_preprocessed.json
+        │   └── [ 200]  numeric_code.json
+        └── [4.0K]  numpy_arrays
+            ├── [6.3M]  padded_mitochondrion_proteins.npy
+            ├── [6.3M]  padded_surface_proteins.npy
+            └── [ 13M]  preprocessed_data.npz
 
-9 directories, 14 files
+10 directories, 18 files
